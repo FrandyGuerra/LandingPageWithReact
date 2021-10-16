@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 export const Card=({url,alt,title,textBody,btnUrl,btnLabel})=>{
     return(
     
-        <div className="card text-center">
+        <div className="card text-center mb-4">
             <img src={url} alt={alt}/>
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>
